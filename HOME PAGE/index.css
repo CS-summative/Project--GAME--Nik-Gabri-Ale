@@ -2,3 +2,7 @@ body{
 background-image: url(homepagebackground.jpg);
 background-size: cover;
 }
+
+.audioplayer{
+    width: 200px;
+}
