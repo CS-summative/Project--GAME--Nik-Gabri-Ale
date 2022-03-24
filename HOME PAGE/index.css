@@ -1,3 +1,4 @@
 body{
-    background-image: url(homepagebackground.jpg);
+background-image: url(homepagebackground.jpg);
+background-size: cover;
 }
