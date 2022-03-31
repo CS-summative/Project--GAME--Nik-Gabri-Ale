@@ -3,6 +3,25 @@ background-image: url(homepagebackground.jpg);
 background-size: cover;
 }
 
-.audioplayer{
-    width: 200px;
+
+.title{
+width: 1400px;
+}
+
+
+
+.btn-start{
+position: absolute;
+top: 40%;
+left: 38%;
+font-size: 100px;
+font-family: AssassinCreed;
+}
+
+@font-face{
+    font-family: AssassinCreed;
+src: Assassin$.ttf;
+
+font-weight: bold;
+
 }
