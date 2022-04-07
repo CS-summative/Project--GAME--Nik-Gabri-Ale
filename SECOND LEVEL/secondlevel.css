@@ -1,0 +1,17 @@
+body{
+background-image: url(bg.jpg);
+background-size: 77%;
+}
+
+.buttonb{
+    position: absolute;
+    bottom: 11%;
+    right: 93%;
+    }
+    
+
+    .button{
+        position: absolute;
+        bottom: 11%;
+        left: 93%;
+     }
