@@ -12,13 +12,48 @@
 <img src="title.png" alt="title" class="title">
 </div>
 
-
+<div class="startbuttons">
 <a href="../FIRST LEVEL/firstlevel.html" class="btn btn-outline-dark btn-start">START</a>
-
-
-
-
-
+<script>
+    var x = document.getElementById("myAudio"); 
     
+    function playAudio() { 
+      x.play(); 
+    } 
+    
+    function pauseAudio() { 
+      x.pause(); 
+    } 
+    </script>
+    
+    <button onclick="playAudio()" type="button" class="startmusic">Play audio</button>
+    <button onclick="pauseAudio()" type="button" class="stopmusic">Stop audio</button> 
+</div>
+
+
+  <audio id="myAudio">
+    <source src="colonnasonora.mp3" type="audio/ogg">
+    <source src="http://www.u86news.com/Music/Sounds/horse.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+
+  
+
+<script>
+var x = document.getElementById("myAudio"); 
+
+function playAudio() { 
+  x.play(); 
+} 
+
+function pauseAudio() { 
+  x.pause(); 
+} 
+</script>
+
+<button onclick="playAudio()" type="button" class="startmusic">Play audio</button>
+<button onclick="pauseAudio()" type="button" class="stopmusic">Stop audio</button> 
+  
 </body>
 </html>
