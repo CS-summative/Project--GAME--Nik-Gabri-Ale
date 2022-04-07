@@ -1,6 +1,7 @@
 body{
 background-image: url(homepagebackground.jpg);
 background-size: cover;
+min-height: 100vh;
 }
 
 
@@ -19,7 +20,18 @@ font-size: 100px;
 font-family: AssassinCreed;
 }
 
-.
+.btn-start2{
+position: absolute;
+top: 40%;
+left: 38%;
+font-family: AssassinCreed;
+}
+.btn-start3{
+position: absolute;
+top: 40%;
+left: 44%;
+font-family: AssassinCreed; 
+}
 
 @font-face{
     font-family: AssassinCreed;
