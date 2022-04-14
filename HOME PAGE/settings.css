@@ -1,0 +1,17 @@
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+
+}
+
+.text-center.settingstext{
+position: absolute;
+z-index: 90;
+font-family: AssassinCreed;
+
+}
+
+
