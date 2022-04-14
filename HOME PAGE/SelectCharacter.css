@@ -7,11 +7,19 @@
 }
 
 
-#text-center title {
+.text-center.title {
     font-family: AssassinCreed;
     font-size: 40px;
+    position: absolute;
+    top:50%;
+    left:34%;
+    z-index: 100;
 }
 
+
+.text1{
+    position: relative;
+}
   
 
 
