@@ -7,12 +7,17 @@
 
 }
 
-.text-center.settingstext{
+.link-dark.settingstext{
 position: absolute;
-left: 30%;
 z-index: 90;
 font-family: AssassinCreed;
 
+left: 35%;
+}
+
+.homeset{
+font-size: 130px;
+top: 40;
 }
 
 
