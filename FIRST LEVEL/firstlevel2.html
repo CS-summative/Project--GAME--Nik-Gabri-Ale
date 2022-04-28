@@ -12,7 +12,30 @@
 
 <a href="firstlevel3.html" class="btn btn-success button">NEXT</a>
 
-
+<div class="Man">
+    <img src="Man.png" alt="" width="260" height="320" position=30px;>
+    </div>
+    <script>
+                
+        const Man = document.querySelector('.Man')
+        var topCh = 41;
+        var left = 15;
+    
+        let speed = 1
+        window.onkeydown = (e) => {
+            
+            if (e.code === "KeyA"){
+                left = left - speed;
+                Man.style.left = left + "%"
+            }
+            if (e.code === "KeyD"){
+                left = left + speed;
+                Man.style.left = left + "%"
+            }
+    
+    
+        }
+    </script>
 
 </body>
 </html>
