@@ -9,6 +9,7 @@
 
 .text-center.settingstext{
 position: absolute;
+left: 30%;
 z-index: 90;
 font-family: AssassinCreed;
 
