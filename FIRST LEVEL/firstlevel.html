@@ -12,5 +12,27 @@
 
 <a href="firstlevel2.html" class="btn btn-success button">NEXT</a>
 
+<script>
+            
+    const man = document.querySelector('.man')
+    var topCh = 41;
+    var left = 15;
+
+    let speed = 1
+    window.onkeydown = (e) => {
+        
+        if (e.code === "KeyA"){
+            left = left - speed;
+            man.style.left = left + "%"
+        }
+        if (e.code === "KeyD"){
+            left = left + speed;
+            man.style.left = left + "%"
+        }
+
+
+    }
+</script>
+
 </body>
 </html>
