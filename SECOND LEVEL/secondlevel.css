@@ -18,7 +18,25 @@ background-size: 77%;
 
 .Man{
 position: absolute;
-left: 34%;
+left: 54%;
 bottom: 12%;
 width: 120px;
+}
+
+.guard1{
+position: absolute;
+left: 44%;
+bottom: 12%;
+width: 120px;
+
+
+}
+
+.guard2{
+position: absolute;
+left: 44%;
+bottom: 12%;
+width: 120px;
+    
+    
 }
