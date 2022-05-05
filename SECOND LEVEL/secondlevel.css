@@ -1,7 +1,8 @@
 body{
 background-image: url(bg.jpg);
 background-size: 77%;
-background-repeat: no-repeat;
+
+min-width: 100vh;
 }
 
 .buttonb{
