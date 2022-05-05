@@ -17,7 +17,19 @@ left: 35%;
 
 .homeset{
 font-size: 130px;
-top: 40;
+top: 49%;
+left: 34%;
+}
+
+
+.text-center.link-dark.settingstext{
+top: 22%;
+left: 39%;
+}
+
+.resume{
+    position: absolute;
+    z-index: 90;
 }
 
 
