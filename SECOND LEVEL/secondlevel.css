@@ -1,6 +1,7 @@
 body{
 background-image: url(bg.jpg);
 background-size: 77%;
+background-repeat: no-repeat;
 }
 
 .buttonb{
@@ -76,4 +77,10 @@ left: 48%;
 bottom: 32%;
 max-width: 200px;
  
+}
+
+.text3{
+left: 60%;
+bottom: 30%;
+
 }
