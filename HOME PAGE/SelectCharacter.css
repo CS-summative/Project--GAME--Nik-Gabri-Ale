@@ -18,7 +18,7 @@
   z-index: 90;
   position: absolute;
   top:60%;
-  left:20%;
+  left: 88%;
 }
 
 #character-box {
@@ -33,7 +33,7 @@
   z-index: 90;
   position: absolute;
   top:50%;
-  left:44%;
+  left:78%;
 }
 
 
@@ -44,7 +44,7 @@
   z-index: 90;
   position: absolute;
   top:50%;
-  left:34%;
+  left:88%;
 }
 
 
@@ -71,3 +71,15 @@
     position: relative;
 }
   
+.characterbegin{
+position: absolute;
+left: 26%;
+font-size: 40px;
+
+}
+
+.manclass{
+position: absolute;
+left: 32%;
+top: 20%;
+}
