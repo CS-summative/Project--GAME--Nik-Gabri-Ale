@@ -71,9 +71,9 @@
     position: relative;
 }
   
-.characterbegin{
+.chartext{
 position: absolute;
-left: 26%;
+
 font-size: 40px;
 
 }
